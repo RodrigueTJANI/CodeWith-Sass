@@ -2,11 +2,15 @@ nav {
   a {
     color: $primary-color;
   }
+  li {
+    color: blue($color: #000000);
+    list-style: none;
+  }
 }
 
 header {
   height: $huge;
-  background-image: url('../../images/header.jpg');
+  background-image: url("../../images/header.jpg");
   background-size: cover;
   text-align: center;
 }

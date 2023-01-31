@@ -6,7 +6,7 @@ nav {
 
 header {
   height: $huge;
-  background-image: url('../../images/header.jpg');
+  background-image: url("../../images/header.jpg");
   background-size: cover;
   text-align: center;
 }
@@ -31,5 +31,10 @@ footer {
   background-color: $primary-color;
   a {
     color: white;
+  }
+  ul {
+    list-style: none;
+    justify-content: center;
+    margin-left: 5px;
   }
 }
